@@ -18,7 +18,7 @@ INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES (
 INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('collards', 'Food', 1.99, 10);
 INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('sugar', 'Baking', 45, 12);
 INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('baking soda', 'Baking', 75, 40);
-INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('Nike Women' 'Running Tank', 'Apparel', 50, 3);
+INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('Nike Women', 'Apparel', 50, 3);
 INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('Hydration Belt', 'Accessories', 55, 4);
 INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('Headlamp', 'Accessories', 25, 20);
 INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('GPS Watch', 'Electronics', 299.99, 2);
