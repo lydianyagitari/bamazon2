@@ -3,12 +3,12 @@ CREATE DATABASE Bamazon_db;
 USE Bamazon_db;
 
 CREATE TABLE products(
-	item_id INT NOT NULL AUTO_INCREMENT,
-	product_name VARCHAR(100) NOT NULL,
-	department_name VARCHAR(40) NOT NULL,
-	Price DECIMAL(20,4) default 0,
-	stock_quantity INT default 0,
-	PRIMARY KEY(item_id)
+	Id INT NOT NULL AUTO_INCREMENT,
+	ProductName VARCHAR(100) NOT NULL,
+	DepartmentName VARCHAR(100) NOT NULL,
+	Price DECIMAL(10,2) default 0,
+	StockQuantity INT default 0,
+	PRIMARY KEY(Id)
 );
 
 INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('Brooks Launch 2', 'Running Shoes', 99, 12);
