@@ -16,10 +16,10 @@ INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES (
 INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('Adidas Supernova Glide 8', 'Running Shoes', 129.95, 20);
 INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('Mizuno Wave Rider 18', 'Running Shoes', 119.95, 10);
 INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('jim beam', 'Running Shoes', 119.95, 33);
-INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('Nike Men\', 'Running Tee', 'Apparel', 70, 10);
-INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('Nike Men\', 'Running Tank', 'Apparel', 45, 12);
-INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('Nike Women\', 'Running Tee', 'Apparel', 75, 40);
-INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('Nike Women\', 'Running Tank', 'Apparel', 50, 3);
+INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('Nike Men', 'Running Tee', 'Apparel', 70, 10);
+INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('Nike Men', 'Running Tank', 'Apparel', 45, 12);
+INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('Nike Women', 'Running Tee', 'Apparel', 75, 40);
+INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('Nike Women', 'Running Tank', 'Apparel', 50, 3);
 INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('Hydration Belt', 'Accessories', 55, 4);
 INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('Headlamp', 'Accessories', 25, 20);
 INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('GPS Watch', 'Electronics', 299.99, 2);
