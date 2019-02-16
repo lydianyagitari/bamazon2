@@ -1,19 +1,19 @@
 
 CREATE DATABASE Bamazon_db;
 
-USE "Bamazon_db";
+USE Bamazon_db;
 
-CREATE TABLE "products"
+CREATE TABLE products
 (
-	"id" INT NOT NULL
+	id INT NOT NULL
 	AUTO_INCREMENT,
-	"ProductName" VARCHAR
+	ProductName VARCHAR
 	(100) NOT NULL,
-	"DepartmentName" VARCHAR
+	DepartmentName VARCHAR
 	(100) NOT NULL,
-	"Price" DECIMAL
+	Price DECIMAL
 	(10,2) default 0,
-	"StockQuantity" INT default 0,
+	StockQuantity INT default 0,
 	PRIMARY KEY
 	(id)
 );
@@ -21,15 +21,15 @@ CREATE TABLE "products"
 	INSERT INTO products
 		(ProductName, DepartmentName, Price, StockQuantity)
 	VALUES
-		('Brooks Launch 2', 'Running Shoes', 99, 12);
+		('Brooks 2', 'Running Shoes', 99, 12);
 	INSERT INTO products
 		(ProductName, DepartmentName, Price, StockQuantity)
 	VALUES
-		('Adidas Supernova Glide 8', 'Running Shoes', 129.95, 20);
+		('Nikes 8', 'Running Shoes', 129.95, 20);
 	INSERT INTO products
 		(ProductName, DepartmentName, Price, StockQuantity)
 	VALUES
-		('Mizuno Wave Rider 18', 'Running Shoes', 119.95, 10);
+		('Mizuno', 'Running Shoes', 119.95, 10);
 	INSERT INTO products
 		(ProductName, DepartmentName, Price, StockQuantity)
 	VALUES
