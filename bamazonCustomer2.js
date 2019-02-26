@@ -17,7 +17,7 @@ var connection = mysql.createConnection({
 //Establish Connection
 connection.connect(function (err) {
 	if (err) throw err;
-	console.log('connected as id: ' + connection.threadId)
+	console.log('connected as id: ' + connection.threadId);
 });
 
 //FUNCTIONS
@@ -31,7 +31,7 @@ function fetchInventory() {
 
 
 		for (i = 0; i < res.length; i++) {
-			console.log('Item ID:' + res[i].id + ' Product Name: ' + res[i].ProductName + ' Price: ' + '$' + res[i].Price + '(Quantity left: ' + res[i].StockQuantity + ')')
+			console.log('Item ID:' + res[i].id + ' Product Name: ' + res[i].ProductName + ' Price: ' + '$' + res[i].Price + '(Quantity left: ' + res[i].StockQuantity + ')');
 		}
 		console.log('=================================================');
 		customerPrompt();
