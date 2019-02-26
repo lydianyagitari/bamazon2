@@ -34,6 +34,10 @@ The first should ask them the ID of the product they would like to buy.
 The second message should ask how many units of the product they would like to buy.
 Once the customer has placed the order, your application should check if your store has enough of the product to meet the customer's request.
 
+SCREENSHOTS
+
+![mingw64__c_users_queen-lydia_desktop_bamazon2 2_26_2019 4_58_04 pm](https://user-images.githubusercontent.com/42593741/53452787-f27cbb00-39e7-11e9-9fd0-77f776ebc844.png)
+
 If not, the app should log a phrase like Insufficient quantity!, and then prevent the order from going through.
 However, if your store does have enough of the product, you should fulfill the customer's order.
 
