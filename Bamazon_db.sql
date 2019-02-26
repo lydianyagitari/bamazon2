@@ -1,7 +1,7 @@
 
-CREATE DATABASE Bamazon2_db;
+CREATE DATABASE Bamazon_db;
 
-USE Bamazon2_db;
+USE Bamazon_db;
 
 CREATE TABLE products
 (
