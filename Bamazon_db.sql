@@ -21,7 +21,7 @@ CREATE TABLE products
 	INSERT INTO products
 		(ProductName, DepartmentName, Price, StockQuantity)
 	VALUES
-		('Brooks 2', 'Running Shoes', 99, 12);
+		('Brooks 2', 'Food', 99, 12);
 	INSERT INTO products
 		(ProductName, DepartmentName, Price, StockQuantity)
 	VALUES
@@ -37,7 +37,7 @@ CREATE TABLE products
 	INSERT INTO products
 		(ProductName, DepartmentName, Price, StockQuantity)
 	VALUES
-		('pumas', 'Running Tee', 'Apparel', 70, 10);
+		('pumas', 'Running Shoes', 'Apparel', 70, 10);
 	INSERT INTO products
 		(ProductName, DepartmentName, Price, StockQuantity)
 	VALUES
@@ -79,7 +79,7 @@ CREATE TABLE products
 
 		INSERT INTO departments
 			(DepartmentName, OverheadCost)
-		VALUES('Running Shoes', 500);
+		VALUES('Food', 500);
 		INSERT INTO departments
 			(DepartmentName, OverheadCost)
 		VALUES('Apparel', 500);
